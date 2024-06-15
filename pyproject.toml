@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "production"
+version = "0.1.0"
+description = ""
+authors = ["alex <tukipechenka@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.6"
+djangorestframework = "^3.15.1"
+django-filter = "^24.2"
+pillow = "^10.3.0"
+django-debug-toolbar = "^4.4.2"
+gunicorn = "^22.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
